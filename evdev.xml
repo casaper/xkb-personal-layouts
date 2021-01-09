@@ -5233,6 +5233,26 @@
     </layout>
     <layout>
       <configItem>
+        <name>casaper</name>
+        <!-- Keyboard indicator for German layouts -->
+        <shortDescription>casaper</shortDescription>
+        <description>Casaper (basic)</description>
+        <languageList>
+          <iso639Id>deu</iso639Id>
+          <iso639Id>gsw</iso639Id>
+        </languageList>
+      </configItem>
+      <variantList>
+        <variant>
+          <configItem>
+            <name>cas</name>
+            <description>Casaper (custom1)</description>
+          </configItem>
+        </variant>
+      </variantList>
+    </layout>
+    <layout>
+      <configItem>
         <name>ch</name>
         <!-- Keyboard indicator for German layouts -->
         <shortDescription>de</shortDescription>
