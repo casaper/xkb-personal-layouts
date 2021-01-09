@@ -1,0 +1,51 @@
+default  partial alphanumeric_keys
+xkb_symbols "basic" {
+
+    include "ch"
+    name[Group1]= "Casaper (custom1)";
+
+    key <TLDE> { [ numbersign,   bar                                 ] };
+    key <AE01> { [ 1,            plus,        1,          exclamdown ] };
+    key <AE02> { [ 2,            quotedbl,    2,          oneeighth  ] };
+    key <AE03> { [ 3,            asterisk,    3                      ] };
+
+
+    key <AE04> { [ 4,            ccedilla                            ] };
+    key <AE05> { [ 5,            percent                             ] };
+    key <AE06> { [ 6,            ampersand,   notsign                ] };
+    key <AE07> { [ 7,            slash,       bar                    ] };
+    key <AE08> { [ 8,            parenleft,   cent                   ] };
+    key <AE09> { [ 9,            parenright                          ] };
+    key <AE10> { [ 0,            equal                               ] };
+    key <AE11> { [ apostrophe,   question,    acute                  ] };
+    key <AE12> { [ asciicircum,  grave,       asciitilde             ] };
+
+
+    key <AC05> { [ g,            G,           at,         comma      ] };
+    key <AD06> { [ z,            Z                                   ] };
+    key <AD09> { [ o,            O,           oe,         OE         ] };
+    key <AD11> { [ bracketleft,  quotedbl,    plus                   ] };
+    key <AD12> { [ bracketright, exclam,      asterisk               ] };
+
+    key <AC10> { [ slash,        asciitilde,  bar                    ] };
+    key <AC11> { [ backslash,    braceleft,   ampersand              ] };
+    key <BKSL> { [ dollar,       braceright,  brokenbar              ] };
+
+    key <LSGT> { [ less,         greater,     backslash,  brokenbar  ] };
+    key <AB08> { [ comma,        semicolon,   parenleft              ] };
+    key <AB09> { [ period,       colon,       parenright             ] };
+    key <AB10> { [ minus,        underscore,  ampersand              ] };
+
+    // keypad replacement on 3rd level
+    key <AD01> { [ q,            Q,           4                      ] };
+    key <AD02> { [ w,            W,           5,          Lstroke    ] };
+    key <AD03> { [ e,            E,           6,          E          ] };
+    key <AC01> { [ a,            A,           7,          AE         ] };
+    key <AC02> { [ s,            S,           8,          section    ] };
+    key <AC03> { [ d,            D,           9,          ETH        ] };
+    key <AB01> { [ y,            Y,           0,          less       ] };
+    key <AB02> { [ x,            X,           asterisk,   greater    ] };
+    key <AB03> { [ c,            C,           plus,       copyright  ] };
+
+    include "level3(ralt_switch)"
+};
